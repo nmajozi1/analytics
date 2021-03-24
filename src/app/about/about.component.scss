@@ -1,0 +1,14 @@
+.jumbotron.jumbo {
+  background-image: url('../img/jumbo-bg-ntt.jpg');
+}
+
+.content-area::before {
+  content: '';
+  display: block !important;
+  margin-bottom: 40px;
+
+}
+.content-area::after {
+  content: '';
+  display: block !important;
+}
